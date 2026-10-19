@@ -1,0 +1,32 @@
+*{
+    margin:0;
+    padding:0;
+}
+body{
+    background-color: black;
+}
+.nav-bar{
+    position: fixed;
+    top: 0;
+    margin:-8px;
+    width: 100%;
+    height: 64px;
+    background-color: yellow;
+    padding:8px;
+
+}
+.nav-bar .logo img{
+    height: 45px;
+    width:45px;
+    border-radius: 50%;
+    background-color: black;
+    padding: 5px;
+    margin: 0.5rem;
+    display:flex;
+}
+.nav-bar .logo i{
+    height: 48px;
+    width:48px;
+    margin: -8px 0 0 8px;
+    padding:12px;
+}
